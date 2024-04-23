@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@300;400.900;1,400..900&family=Poppins:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .poppins-light {
+  font-family: "Poppins", sans-serif;
+font-family: "Playfair Display", serif; 
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+/* Navbar css */
+.navbar{
+  font-family:  "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow:0 8px 6px -6px gray;
+  border-bottom: 0.5px  solid gray !important;
+}
+.nav-link{
+  font-weight: 400 !important;
+}
+.navbar-nav .nav-item .nav-link.active {
+  border-bottom: 1px solid gray; /* Adjust the color and thickness as needed */
+}
+.app-logo{
+  font-weight: 900;
+  font-family: 'roboto', sans-serif;
+  font-size: 1.6rem;
+}
+.navbar-brand{
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+.footer{
+  color: white;
+  padding: 25px ;
+  background: #000000;
+  background: --webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  );
+  background: linear-gradient(to right,#434343,
+  #000000);
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover{
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+/* Page not found css */
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+.pnf-heading{
+  font-weight: normal;
+}
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover{
+  background-color: #000000;
+  color: white;
+}
+.pnfimg{
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
+.register-form{
+width: 25rem !important;
+padding: 2rem 2rem !important;
+background-color: #d8dffd;
+  border-radius: 10px; 
+       overflow: hidden;
+       border: 1px solid gray;
+       box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06),
+                   0 2px 4px rgba(0, 0, 0, 0.07);
+       transition: all 0.15s ease;
+}
+.register-form:hover{
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1),
+  0 10px 8px rgba(0, 0, 0, 0.015);
+}
+.login-form{
+width: 25rem !important;
+padding: 2rem 2rem !important;
+background-color: #E3F5F9;
+  border-radius: 10px; 
+       overflow: hidden;
+       border: 1px solid gray;
+       box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06),
+                   0 2px 4px rgba(0, 0, 0, 0.07);
+       transition: all 0.15s ease;
+}
+.login-form:hover{
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1),
+  0 10px 8px rgba(0, 0, 0, 0.015);
+}
+.zoom-effect {
+  overflow: hidden;
+}
+
+.zoom-effect img {
+  transition: transform 0.3s;
+}
+
+.zoom-effect:hover img {
+  transform: scale(1.1);
+}
